@@ -1,1 +1,33 @@
-{"index.html":"<h2>CatPhotoApp</h2>\n<main>\n  <p>Click here to view more <a href=\"#\">cat photos</a>.</p>\n  \n  <a href=\"#\"><img src=\"https://bit.ly/fcc-relaxing-cat\" alt=\"A cute orange cat lying on its back.\"></a>\n <div> \n  <p>Things cats love:</p>\n  <ul>\n    <li>cat nip</li>\n    <li>laser pointers</li>\n    <li>lasagna</li>\n  </ul>\n  <p>Top 3 things cats hate:</p>\n  <ol>\n    <li>flea treatment</li>\n    <li>thunder</li>\n    <li>other cats</li>\n  </ol>\n  </div>\n  \n  <form action=\"/submit-cat-photo\">\n    <label><input type=\"radio\" name=\"indoor-outdoor\" checked> Indoor</label>\n    <label><input type=\"radio\" name=\"indoor-outdoor\"> Outdoor</label><br>\n    <label><input type=\"checkbox\" name=\"personality\" checked> Loving</label>\n    <label><input type=\"checkbox\" name=\"personality\"> Lazy</label>\n    <label><input type=\"checkbox\" name=\"personality\"> Energetic</label><br>\n    <input type=\"text\" placeholder=\"cat photo URL\" required>\n    <button type=\"submit\">Submit</button>\n  </form>\n</main>"}
+<h2>CatPhotoApp</h2>
+<main>
+    <p>Click here to view more <a href="https://www.pexels.com/search/cat/">cat photos</a>.</p>
+    
+    <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+    <div> 
+    <p>Things cats love:</p>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+        </ol>
+        </div>
+        <form action="/submit-cat-photo">
+            <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+        <br>
+        <br>
+            <label><input type="checkbox" name="personality"> Loving</label>
+            <label><input type="checkbox" name="personality"> Ornery</label>
+            <label><input type="checkbox" name="personality"> Aloof</label>
+            <br>
+            <br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        </form>
+    </main>
